@@ -108,3 +108,10 @@ C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\obj\Debug\Bi
 C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.CreateTableCourse.resources
 C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
 C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Web.Http.dll
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Web.Http.xml
+C:\Users\ASUS TUF\Desktop\bai tap thuc hanh web\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml

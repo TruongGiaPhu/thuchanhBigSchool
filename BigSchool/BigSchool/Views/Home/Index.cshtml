@@ -1,13 +1,59 @@
 ﻿@model IEnumerable<BigSchool.Models.Course>
 @{ ViewBag.Title = "Home Page"; }
+@{
+                @Styles.Render("~/Content/Index.css") 
+ }
 
-<div class="row">
-    <ul>
+
+
+
+
+
+<div class="row" style="margin-top:30px">
+    <ul class="course">
         @foreach (var course in Model)
         {
-            <li>
-                @course.DateTime - @course.Lecturer.Name
-            </li>
-        }
+<li>
+    <div class="date">
+        <div class="month">
+            @course.DateTime.ToString("MM")
+        </div>
+        <div class="day">
+            @course.DateTime.ToString("dd")
+        </div>
+    </div>
+    <div class="details">
+        <span class="lecturer">
+            @course.Lecturer.Name
+        </span>
+        <span class="category">
+            @course.Category.Name
+
+        </span>
+        <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+    </div>
+
+</li>}
     </ul>
+    @section scripts
+        {
+        <script>
+            $(document).ready(function () {
+                $(".js-toggle-attendance").click(function (e) {
+                    var button = $(e.target);
+                    $.post("/api/Attendances", { courseId: button.attr("data-course-id") })
+                        .done(function () {
+                            button
+                                .removeClass("btn-default")
+                                .addClass("btn-info")
+                                .text("Going");
+                        })
+                        .fail(function () {
+                            alert("Something failed");
+                        })
+
+                });
+            });
+        </script>
+    }
 </div>
