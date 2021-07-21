@@ -233,3 +233,4 @@ C:\Users\ASUS TUF\Desktop\ThucHanh\thuchanhBigSchool\BigSchool\BigSchool\obj\Deb
 C:\Users\ASUS TUF\Desktop\ThucHanh\thuchanhBigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.dll
 C:\Users\ASUS TUF\Desktop\ThucHanh\thuchanhBigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
 C:\Users\ASUS TUF\Desktop\ThucHanh\thuchanhBigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingsTable.resources
+C:\Users\ASUS TUF\Desktop\ThucHanh\thuchanhBigSchool\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.AddIsCanceledColumnToCourse1.resources
